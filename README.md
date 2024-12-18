@@ -1,4 +1,4 @@
-# 🎮 **Ahorcado Game in C++**
+# 🎮 **The Hangman Game in C++**
 
 Welcome to the **Ahorcado Game** project! This is a simple implementation of the classic word-guessing game "Hangman" in C++. It demonstrates fundamental programming concepts such as string manipulation, loops, conditional statements, and file handling.
 
