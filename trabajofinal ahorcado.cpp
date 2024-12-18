@@ -1,7 +1,7 @@
 /***************************************************************************/
 /* Programa del juego del ahorcado                                         */
 /* Autor: Sergio Eguíluz Romero                                            */
-/* Proposito: Dominar el temario dado a lo largo del curso                 */
+/* 							                   */
 /***************************************************************************/
 #include <iostream>
 #include <string>
@@ -25,9 +25,9 @@ int main(){
 		
 	}
 	if (vidas > 0)
-	cout << "�GANASTE!"<<endl;
+		cout << "�GANASTE!"<<endl;
 	else 
-	cout << "PERDISTE, la palabra era: "<< palabra_inicial <<endl;
+		cout << "PERDISTE, la palabra era: "<< palabra_inicial <<endl;
 	return 0;
 }
 void mostrar(){
@@ -57,16 +57,16 @@ void ingresar(char a){
 }
 void leerfichero(){
 ifstream f2;
-f2.open("datos.txt");
-if (!f2) cout << "Error";
-else {
-char dato;
-dato = f.get();
-while(!f.eof()) {
-cout << dato << endl;
-dato = f.get();
-}
-}
+	f2.open("datos.txt");
+	if (!f2) cout << "Error";
+		else {
+			char dato;
+			dato = f.get();
+	while(!f.eof()) {
+		cout << dato << endl;
+		dato = f.get();
+		}
+	}
 f2.close();
 }
 
