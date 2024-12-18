@@ -107,8 +107,8 @@ PERDISTE, la palabra era: Altavoz
 ## 📩 **Contact**
 
 Created by Sergio Eguíluz Romero. Feel free to reach out for feedback or suggestions:
-- **Email**: sergio.dev@gmail.com
-- **GitHub Profile**: [@eguilser](https://github.com/eguilser)
+- **LinkedIn**: sergio.dev@gmail.com
+- **Github Profile**: [@eguilser](https://github.com/eguilser)
 
 ---
 
